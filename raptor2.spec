@@ -2,7 +2,7 @@
 Summary: RDF Parser Toolkit for Redland
 Name:    raptor2
 Version: 2.0.9
-Release: 1%{?dist}
+Release: 3%{?dist}
 
 License: GPLv2+ or LGPLv2+ or ASL 2.0
 Source:  http://download.librdf.org/source/raptor2-%{version}.tar.gz
@@ -89,6 +89,12 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.0.9-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.0.9-2
+- Mass rebuild 2013-12-27
+
 * Tue Mar 26 2013 Rex Dieter <rdieter@fedoraproject.org> 2.0.9-1
 - 2.0.9
 - BR: libicu-devel
